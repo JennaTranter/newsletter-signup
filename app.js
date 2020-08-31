@@ -17,7 +17,7 @@ app.post("/", function(req, res) {
   var email = req.body.email;
 
   console.log(firstName, lastName, email);
-})
+});
 
 app.listen(3000, function() {
   console.log("Server started on port 3000");
